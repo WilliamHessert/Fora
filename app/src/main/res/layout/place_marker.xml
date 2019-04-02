@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/markerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Title"
+            android:textSize="14sp"
+            android:textColor="#997BD6"/>
+
+        <TextView
+            android:id="@+id/markerPeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/markerTitle"
+            android:layout_centerHorizontal="true"
+            android:text="100 People"
+            android:textSize="14sp"
+            android:textColor="#997BD6"/>
+
+        <TextView
+            android:id="@+id/markerPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="50%"
+            android:textSize="14sp"
+            android:textColor="#997BD6"/>
+
+        <RelativeLayout
+            android:id="@+id/markerCanvasLayout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/markerPeople"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</RelativeLayout>
